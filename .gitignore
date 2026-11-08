@@ -1,0 +1,63 @@
+# ===== Data & artifacts (downloaded separately, not part of source) =====
+Dataset/
+Datasets(label)/
+Validation/
+Memory_base/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.zip
+*.tar.gz
+*.npy
+*.npz
+*.parquet
+
+# ===== Upstream TSB-AD benchmark (install via `pip install TSB-AD`) =====
+TSB-AD/TSB_AD/
+TSB-AD/benchmark_exp/
+TSB-AD/requirements.txt
+TSB-AD/setup.py
+TSB-AD/README.md
+TSB-AD/assets/
+TSB-AD/.gitignore
+TSB-AD/.git_upstream_backup/
+
+# Keep only the split definitions, drop any vendored data under TSB-AD/Datasets
+TSB-AD/Datasets/*
+!TSB-AD/Datasets/File_List/
+!TSB-AD/Datasets/File_List/**
+
+# ===== Runtime outputs & logs =====
+TSB-AD/eval/
+TSB-AD/runs/
+TSB-AD/clean_smoke_u/
+Architecture_design/runs/
+*.log
+
+# TSB-AD runtime progress / report / dashboard artifacts (generated, not source)
+TSB-AD/*.json
+TSB-AD/*.html
+TSB-AD/*.js
+TSB-AD/LICENSE
+
+# ===== Python bytecode & caches =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ===== Compiled extensions =====
+*.so
+*.dll
+*.pyd
+
+# ===== IDE / OS =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

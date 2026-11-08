@@ -1,0 +1,16 @@
+# Optional dependencies: install only when you use the corresponding tool. Core
+# dependencies (pandas/numpy/scipy/scikit-learn/statsmodels) ship with the project.
+PyWavelets>=1.1        # wavelet threshold denoising (wavelet_denoise)
+tsfresh>=0.20          # automated feature extraction (tsfresh_extract / auto_feature_extract)
+tsfel>=0.1.6           # multi-domain feature extraction (tsfel_extract / peak_features / spectral_features)
+sktime>=0.30           # unified transform interface (sktime_transform), discretization (discretize), compression (series_compress)
+tsai>=0.3.5            # deep learning data pipeline and augmentation (tsai_augment / series_augment)
+tsflex>=0.4.1          # segmentation / sliding-window / feature-extraction orchestration (tsflex_feature / window_partition / auto_feature_extract)
+ruptures>=1.1.9        # changepoint segmentation (changepoint_segment)
+EMD-signal>=1.5        # empirical mode decomposition and its variants (emd_decompose)
+vmdpy>=0.2             # variational mode decomposition (vmd_decompose)
+antropy>=0.1.6         # entropy and complexity features (entropy_features)
+tslearn>=0.6           # DTW / Shapelet shape features (dtw_distance / shapelet_distance)
+stumpy>=1.12           # Matrix Profile subsequence features (matrix_profile)
+imbalanced-learn>=0.11 # over-sampling / under-sampling (resample_balance)
+holidays>=0.50         # holiday encoding (calendar_encode)
