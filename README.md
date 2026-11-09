@@ -1,4 +1,4 @@
-# Morphology- & Source-Prior-Guided LLM Routing for Time-Series Anomaly Detection
+# Morphological Evidence from Temporal Data for Industrial Anomaly Detection
 
 A label-free routing framework for time-series anomaly detection built on top of the
 [TSB-AD](https://github.com/TheDatumOrg/TSB-AD) benchmark. Instead of relying on a single
